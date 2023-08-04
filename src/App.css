@@ -1,0 +1,15 @@
+#page {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-areas:
+      "head head"
+      "nav  main"
+      "foot  foot";
+    grid-template-rows: 50px 2fr 30px;
+    grid-template-columns: 150px 2fr;
+    text-align: center;
+    background-image: url("./images/galaxy.webp");
+    font-family: system-ui;
+     
+  }
