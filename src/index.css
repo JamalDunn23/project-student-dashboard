@@ -7,7 +7,7 @@
       "nav  main"
       "nav  foot";
     grid-template-rows: 50px 2fr 30px;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 225px 1fr;
   }
   
   #page > header {
@@ -21,11 +21,16 @@
   #page > nav {
     grid-area: nav;
     background-color: #ffa08c;
+    
+  }
+  li{
+    list-style: none;
   }
   
   #page > main {
     grid-area: main;
     background-color: #ffff64;
+    
   }
   
   #page > footer {
@@ -36,6 +41,7 @@
     text-align: left;
     background-color: turquoise;
     border: 5px solid black;
+
 
   }
   .student-img{

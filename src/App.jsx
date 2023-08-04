@@ -1,5 +1,6 @@
 import data from "./data/data.json"
 import studentsToRender from "./Componets/StudentCard.jsx"
+import CohortDirectory from "./Componets/CohortDirectory.jsx";
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
       Student Dashboard
       </header>
 
-      <nav>
+      <nav >
+      <CohortDirectory/>
       </nav>
       
       <main class="centered">
