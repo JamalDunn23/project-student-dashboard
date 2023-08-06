@@ -1,23 +1,35 @@
 import React from 'react'
+import { useState }from 'react'
 
 
-function CohortDirectory() {
+const CohortDirectory = () => {
+  
+  const [cohort,setCohort] = useState([
+     {title: "All Students", id: 1},
+     {title: "Winter 2026", id:2},
+     {title: "Fall 2016", id: 3},
+     {title: "Summer 2026", id: 4},
+     {title: "Spring 2026", id: 5},
+     {title: "Winter 2025", id: 6},
+     {title: "Fall 2025", id: 7},
+     {title: "Summer 2025", id: 8},
+     {title: "Spring 2025", id: 9},
+   ]);
+  
+  
   return (
-    <div>
-    <h2>Choose a class by Start Date</h2>
-        <ul key="startDate" >
-            <li>All Students</li><hr></hr>
-            <li>Winter 2026 </li><hr></hr>
-            <li>Fall 2026</li><hr></hr>
-            <li>Summer 2026</li><hr></hr>
-            <li>Spring 2026</li><hr></hr>
-            <li>Winter 2025</li><hr></hr>
-            <li>Fall 2025</li><hr></hr>
-            <li>Summer 2025</li><hr></hr>
-            <li>Spring 2025</li><hr></hr>
-        </ul>
+   
+   <div className='cohort'>
+    {cohort.map((cohortMapped)=> (
+      <div className='cohort-preview' key ={cohortMapped.id}>
+        <h2>{cohortMapped.title}</h2>
+      </div>
+    ))}
+    
     </div>
   )
 }
+
+
 
 export default CohortDirectory

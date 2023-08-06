@@ -12,7 +12,7 @@
   
   #page > header {
     grid-area: head;
-    background-color: #8ca0ff;
+    background-color: #6e6e35bb;
     text-align: center;
     font-family: system-ui;
     font-size: x-large;
@@ -20,7 +20,7 @@
   
   #page > nav {
     grid-area: nav;
-    background-color: #ffa08c;
+    background-color: grey;
     
   }
   li{
@@ -29,7 +29,7 @@
   
   #page > main {
     grid-area: main;
-    background-color: #ffff64;
+    
     
   }
   
@@ -39,8 +39,9 @@
   }
      .student-card{
     text-align: left;
-    background-color: turquoise;
+    background-color: palegoldenrod;
     border: 5px solid black;
+    
 
 
   }
@@ -51,4 +52,18 @@
   section.student-card{
     grid-template-columns: 1fr 1fr;
     display: grid;
+  }
+  .cohort-preview{
+    font-family: system-ui;
+  }
+  .cohort-preview{
+    padding: 10px 16px;
+    margin: 10px 0;
+  }
+  .cohort-preview:hover{
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+  }
+  .cohort-preview h2{
+    font-size: 20px;
+    margin-bottom: 4px;
   }
