@@ -3,8 +3,8 @@ import studentsToRender from "./Componets/StudentCard.jsx"
 import CohortDirectory from "./Componets/CohortDirectory.jsx";
 
 function App() {
+ 
 
-  
    return (
     <div>
     <section id="page">
