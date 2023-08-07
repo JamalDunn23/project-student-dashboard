@@ -39,10 +39,10 @@ const studentsToRender= data.map(
     <td>Assessments:{eachStudentObj.cohort.scores.assessments}%</td>
   </tr>
   <tr>
-    <td>Resume:{eachStudentObj.certifications.resume}</td>
-    <td>LinkedIn:{eachStudentObj.certifications.linkedin}</td>
-    <td>Mock Interview:{eachStudentObj.certifications.mockInterview}</td>
-    <td>Git Hub:{eachStudentObj.certifications.github}</td>
+    <td>Resume:{eachStudentObj.certifications.resume ? '✅' : '❌'}</td>
+    <td>LinkedIn:{eachStudentObj.certifications.linkedin ? '✅' : '❌'}</td>
+    <td>Mock Interview:{eachStudentObj.certifications.mockInterview ? '✅' : '❌'}</td>
+    <td>Git Hub:{eachStudentObj.certifications.github ? '✅' : '❌'}</td>
   </tr>
 </table>
       </section>
