@@ -53,17 +53,17 @@
     grid-template-columns: 1fr 1fr;
     display: grid;
   }
-  .cohort-preview{
+  .navCohorts1,.navCohorts2,.navCohorts3,.navCohorts4,.navCohorts5,.navCohorts6,.navCohorts7,.navCohorts8,.navCohorts9{
     font-family: system-ui;
   }
-  .cohort-preview{
+  .navCohorts1,.navCohorts2,.navCohorts3,.navCohorts4,.navCohorts5,.navCohorts6,.navCohorts7,.navCohorts8,.navCohorts9{
     padding: 10px 16px;
     margin: 10px 0;
   }
-  .cohort-preview:hover{
+  .navCohorts1,.navCohorts2,.navCohorts3,.navCohorts4,.navCohorts5,.navCohorts6,.navCohorts7,.navCohorts8,.navCohorts9,:hover{
     box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
   }
-  .cohort-preview h2{
+  .navCohorts1,.navCohorts2,.navCohorts3,.navCohorts4,.navCohorts5,.navCohorts6,.navCohorts7,.navCohorts8,.navCohorts9, h2{
     font-size: 20px;
     margin-bottom: 4px;
   }
@@ -80,7 +80,7 @@
   
   #student-table tr:nth-child(even){background-color: #f2f2f2;}
   
-  #student-table tr:hover {background-color: #ddd;}
+  /* #student-table tr:hover {background-color: #ddd;} */
   
   #student-table th {
     
@@ -92,4 +92,8 @@
   }
   #card-font{
     font-family:system-ui ;
+  }
+  .navHeader{
+    text-align: center;
+    font-family: system-ui;
   }

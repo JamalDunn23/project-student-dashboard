@@ -1,15 +1,16 @@
 import data from "../data/data.json"
 import { useState } from "react"
 
-function StudentCard(){
+function Fall2025Card(){
 
-  
-  const [toggle, setToggle] = useState(false)
-  const studentsToRender= data.map(
     
-    
-    (eachStudentObj)=>{
-      return(
+    const [toggle, setToggle] = useState(false)
+    const studentsToRender= data.map(
+        
+        
+        (eachStudentObj)=>{
+            if(eachStudentObj.cohort.cohortCode === "Fall2025")
+            return(
         
         <section className= "student-card">
         <section> <img className = "student-img" src={eachStudentObj.profilePhoto} alt="Image of Student"/></section>
@@ -65,4 +66,4 @@ function StudentCard(){
 
   } 
     
-    export default StudentCard
+    export default Fall2025Card
