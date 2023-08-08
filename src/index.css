@@ -80,7 +80,7 @@
   
   #student-table tr:nth-child(even){background-color: #f2f2f2;}
   
-  /* #student-table tr:hover {background-color: #ddd;} */
+  #student-table tr:hover {background-color: #ddd;}
   
   #student-table th {
     
